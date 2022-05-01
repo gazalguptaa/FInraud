@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.webscan {
+  margin: 0px 20%;
+  display: flex;
+  margin-top: -2%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.webscan-head {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+
+  margin-top: 15%;
+}
+.webscan-desc {
+  font-size: 17px;
+  text-align: center;
+  margin-top: -2%;
+}
+
+.webscan-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4%;
+  width: 100%;
+}
+
+.webscan-field {
+  border-color: black !important;
+  border-radius: 20px !important;
+  box-shadow: 3px 3px 8px grey !important;
+  margin-top: -3% !important;
+  height: 50px !important;
+  font-family: "Montserrat" !important;
+  font-size: 17px !important;
+  padding-left: 10px !important;
+  color: blue;
+}
+
+.webscan-field:focus {
+  border-color: blue !important;
+}
+
+.submit-Btn {
+  width: 15%;
+  margin: 0;
+  padding: 0 0 !important;
+  border-radius: 20px !important;
+  color: rgb(59, 54, 54) !important;
+  border-color: rgb(78, 71, 71) !important;
+  font-family: "Montserrat" !important;
+}
+.submit-Btn:hover {
+  color: blue !important;
+  border-color: blue !important;
+}
+
+.score,
+.feedback {
+  width: 100%;
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scoreno,
+.feedbackval {
+  color: red;
+}
+
+.res {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: blue;
+  font-size: 20px;
+  margin-left: 10%;
+}
